@@ -28,7 +28,7 @@
     "intl": "^1.2.5",
     "jest": "^24.8.0",
     "npm-run-all": "^4.1.5",
-    "relative-time-format": "^1.0.0",
+    "relative-time-format": "^1.0.4",
     "rimraf": "^2.6.3",
     "test262-harness": "^6.3.2"
   }

@@ -2,8 +2,8 @@ const path = require('path')
 const fs = require('fs')
 
 // For local testing:
-// const umd = fs.readFileSync(path.join(__dirname, '../../relative-time-format/bundle/relative-time-format.js'), 'utf-8')
-const umd = fs.readFileSync(path.join(__dirname, '../node_modules/relative-time-format/bundle/relative-time-format.js'), 'utf-8')
+const umd = fs.readFileSync(path.join(__dirname, '../../relative-time-format/bundle/relative-time-format.js'), 'utf-8')
+// const umd = fs.readFileSync(path.join(__dirname, '../node_modules/relative-time-format/bundle/relative-time-format.js'), 'utf-8')
 const en = fs.readFileSync(path.join(__dirname, '../node_modules/relative-time-format/locale/en.json'), 'utf-8')
 const en_GB = fs.readFileSync(path.join(__dirname, '../node_modules/relative-time-format/locale/en-GB.json'), 'utf-8')
 const pl = fs.readFileSync(path.join(__dirname, '../node_modules/relative-time-format/locale/pl.json'), 'utf-8')
